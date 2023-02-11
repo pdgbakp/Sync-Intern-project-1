@@ -1,0 +1,120 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Playfair Display', serif;
+    /*font-family: 'Source Serif Pro', serif;*/
+    letter-spacing: 4px;
+    text-decoration-color: white;
+    color:white;
+
+}
+body{
+    background-color: rgb(105, 8, 134);
+}
+.container{
+    margin:3% 10%;
+    padding:3% 3%;
+    background-color: rgb(69, 5, 99);
+    border-radius: 20px;
+    box-shadow: 0px 2px 18px 2px rgb(214, 8, 214); 
+    animation-name:example;
+    animation-duration: initial;
+    animation-delay:1s;
+    animation-iteration-count: infinite;
+    
+}
+
+.form_heading{
+    text-align: center;
+    
+    
+}
+.heading{
+   
+    text-decoration-color: rgb(159, 68, 245);
+    font-size: 25px;
+    text-shadow: 2px 4px 2px rgb(3, 1, 3);
+}
+.S{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+}
+input{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 10px;
+    width:20%;
+    height:25px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: darkslateblue;
+    box-shadow: 1px 0px 0px 1px rgb(180, 98, 235);
+    transition: 0.5s;
+    opacity:20%;
+    
+
+}
+input:hover{
+    box-shadow: 2px 0px 18px 5px rgb(180, 98, 235);
+    height:30px;
+    border:1px solid rgb(51, 2, 51);
+    background-color: rgb(127, 67, 206);
+    
+}
+
+
+#gender{
+    width:auto;
+    height: auto;
+    border-style:none;
+    box-shadow: none;
+
+}
+.btn{
+    color:rgb(248, 247, 247);
+    width:50%;
+    text-shadow:1px 1px 12px 1px black;
+    height:30px;
+    border-radius:20px;
+    border-style:none;
+    background-image:linear-gradient(#FC5C7D,#5867b6);
+    box-shadow: 1px 1px 12px 1px black;
+    opacity:30%;
+    
+    
+}
+.btn:hover{
+    background-color:rgb(14, 129, 236);
+    box-shadow: 2px 2px 18px 2px black;
+    color:rgb(31, 3, 32);
+    opacity:50%;
+
+}
+
+img{
+    width:30px;
+    transition: 0.5s;
+}
+img:hover{
+    opacity: 20%;
+}
+.flex{
+    display:flex;
+    flex-wrap: nowrap;
+}
+.container2{
+    background-image: url(image/450-removebg-preview.png);
+    width:50%;
+    height:60vh;
+    background-repeat: no-repeat;
+    opacity: 70%;
+    overflow: hidden;
+}
+@media screen and(max-width:600Px) and (min-width:200px){
+    .container2{
+        display: none;
+        width:auto;
+        height: auto;
+    }
+}
+
